@@ -15,4 +15,8 @@ class LoginPage < SitePrism::Page
     def validate_login
         login_button.click
     end
+
+    def access_swaglabs
+        expect(page).to have_current_path('https://www.saucedemo.com/inventory.html')
+    end
 end

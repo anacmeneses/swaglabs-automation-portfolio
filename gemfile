@@ -7,3 +7,4 @@ gem 'pry'
 gem 'rspec'
 gem 'selenium-webdriver'
 gem 'site_prism'
+gem 'simplecov', require: false

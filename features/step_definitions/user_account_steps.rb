@@ -15,5 +15,5 @@ E('clicar no botão de login') do
 end
 
 Então('devo ser direcionada para a página inicial') do
-    expect(page).to have_current_path('https://www.saucedemo.com/inventory.html')
+    LoginPage.new.access_swaglabs
 end
